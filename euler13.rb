@@ -100,3 +100,14 @@ num = "37107287533902102798797998220837590246510135740250
 53503534226472524250874054075591789781264330331690"
 
 large_num = num.split(/\n/)
+integer_array = []
+
+large_num.each do |num|
+	integer_array << num.to_i
+end
+
+sum = integer_array.inject(:+)
+
+
+
+
