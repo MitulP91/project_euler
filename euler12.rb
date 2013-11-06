@@ -1,5 +1,7 @@
 require 'benchmark'
 
+# Not very efficient. Come back later -------------------------------------
+
 def checkTriangleNum(limit)
 	num = [1]
 	count = 1

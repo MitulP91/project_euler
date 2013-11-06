@@ -1,4 +1,5 @@
 # Fairly hacky way of doing it
+# Not very efficient. Come back later -------------------------------------
 
 def checkPalindrome?(num)
 	palindrome = false
